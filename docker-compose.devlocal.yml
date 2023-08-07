@@ -1,0 +1,8 @@
+services:
+  demoapp_web:
+    build: .
+    command: "./demoapp"
+    volumes:
+      - ./frontend/dist:/web/app/dist
+    environment:
+      NODE_ENV: development

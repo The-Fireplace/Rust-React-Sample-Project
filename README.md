@@ -1,0 +1,1 @@
+This is a simple example app to demonstrate using Rust+React in one container
